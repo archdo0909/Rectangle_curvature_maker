@@ -1,0 +1,18 @@
+﻿Build started 2016/02/15 6:42:07.
+     1>Project "C:\Users\LAB\Desktop\Simulation\Rectangle\air_bag_2014_10_25\air_bag_2014_10_25.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (air_bag_2014_10_25.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\air_bag_2014_11_3.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt air_bag_2014_11_3.cpp
+         air_bag_2014_11_3.cpp
+     1>c:\users\lab\desktop\simulation\rectangle\air_bag_2014_10_25\air_bag_2014_11_3.cpp(2041): warning C4101: 'pressure' : unreferenced local variable
+     1>c:\users\lab\desktop\simulation\rectangle\air_bag_2014_10_25\air_bag_2014_11_3.cpp(2040): warning C4101: 'temp_wall_n_2' : unreferenced local variable
+     1>c:\users\lab\desktop\simulation\rectangle\air_bag_2014_10_25\air_bag_2014_11_3.cpp(2039): warning C4101: 'temp_wall_n' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LAB\Desktop\Simulation\Rectangle\Debug\air_bag_2014_11_3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\LAB\Desktop\Simulation\Rectangle\Debug\air_bag_2014_11_3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LAB\Desktop\Simulation\Rectangle\Debug\air_bag_2014_11_3.lib" /MACHINE:X86 Debug\air_bag_2014_11_3.obj
+         Debug\stdafx.obj
+         air_bag_2014_10_25.vcxproj -> C:\Users\LAB\Desktop\Simulation\Rectangle\Debug\air_bag_2014_11_3.exe
+     1>Done Building Project "C:\Users\LAB\Desktop\Simulation\Rectangle\air_bag_2014_10_25\air_bag_2014_10_25.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.58
